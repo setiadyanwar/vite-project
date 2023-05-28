@@ -67,7 +67,8 @@ function App() {
 
               }}>
               <input type='checkbox' onChange={() => completeTodo(todo.id)}/>
-            {todo.title}
+            <p>{todo.title}</p>
+            <button style={{marginLeft:'20px'}}>X</button>
             </li>
           ))}
         </ul>
