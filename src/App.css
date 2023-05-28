@@ -1,3 +1,6 @@
+body {
+    background-color: #171717;
+  }
 .container {
     display: flex;
     flex-direction: column;
@@ -6,7 +9,7 @@
     max-width: 400px;
     margin: 0 auto;
     padding: 20px;
-    background-color: #f0f0f0;
+    background-color: rgba(240, 240, 240, 0.8); /* Warna latar belakang transparan */
     border-radius: 4px;
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
   }
