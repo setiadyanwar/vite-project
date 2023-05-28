@@ -41,7 +41,10 @@ function App() {
         <button onClick={() => addNewTodo()}>Create</button>
         <ul>
           {todos.map((todo) => (
-            <li key={todo.id}>{todo.title}</li>
+            <li key={todo.id}>
+              <input type='checkbox'/>
+            {todo.title}
+            </li>
           ))}
         </ul>
       </div>
